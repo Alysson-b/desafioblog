@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/fontes.css">
+    <link rel="stylesheet" href="./assets/css/animation.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <div class="login">
+        <form class="form">
+            <h2>Login</h2>
+            <label for="username">Nome</label>
+            <input class="username" type="text" name="username">
+            <label for="password">Senha</label>
+            <input class="password" type="password" name="password">
+            <div class="error"></div>
+            
+            <div class="buttons">
+                <button id="buttons" class="logar" type="submit">Logar</button>
+                <button id="buttons" class="record" type="button">Registrar</button> <!-- Mudado para type="button" -->
+            </div>
+        </form>
+    </div>
+    
+    <div class="registro">
+        <form class="form" id="registerForm">
+            <h2>Cadastrar</h2>
+            <label for="newuser">Novo Usuário</label>
+            <input class="newuser" type="text" name="newuser" id="newuser" required>
+            <label for="newpass">Nova Senha</label> 
+            <input class="newpass" type="password" name="newpass" id="newpass" required>
+            <button id="buttons" class="record" type="submit">Registrar</button>
+        </form>
+    </div>
+</div>
+    <main class="home">
+        <section class="page-home">
+            <div class="title-home" >
+                <h1>Code and coffee</h1>
+            </div>
+        </section>
+        <div class="home-posts">
+            <form class="form-post">
+                <h2>Nova Postagem</h2>
+                <input type="text" class="input-post" placeholder="Titulo" required>
+                <textarea class="text-post" placeholder="Write your post here..." required></textarea>
+                <button class="btn" type="submit">Submit</button>
+            </form>
+            <div class="posts">
+            </div>
+        </div>
+    </main>
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/post.js"></script>
+</body>
+</html>
