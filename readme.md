@@ -2,7 +2,7 @@
 
 ![](./assets/image/Captura%20de%20tela%202024-07-13%20121605.png)
 
-## Projeto simples de um pequeno blog voltado para pequenos desenvolvedores
+## Projeto simples de um pequeno blog voltado para desenvolvedores
 
 ## 🔎 Tecnologias
 
